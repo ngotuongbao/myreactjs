@@ -1,0 +1,17 @@
+import React from "react";
+import { Link } from "react-router-dom";
+const SingerContent = ({ name, decription, price, picture, time, address }) => {
+  return (
+    <Link to="/detail" className="Link">
+      <div className="singerContent">
+        <img src="picture/iPhone-13-mau-hong-jpeg-7940-1622557449.jpg" alt="" />
+        <p className="p-name">Name: Assssssssssss</p>
+        <p className="p-d">Decription: Noice</p>
+        <p className="p-p">Price: 450000$</p>
+        <i class="fas fa-briefcase"> 4 phút trước TP-HCM</i>
+      </div>
+    </Link>
+  );
+};
+
+export default SingerContent;
